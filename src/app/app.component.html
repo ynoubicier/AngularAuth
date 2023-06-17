@@ -1,0 +1,24 @@
+<img [src]="image" />
+<nav class="navbar navbar-right">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+            <li routerLinkActive="active">
+                <a routerLink="auth">Authentification</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<nav class="navbar navbar-left">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+            <li routerLinkActive="active">
+                <a routerLink="appareils">Appareils</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <router-outlet></router-outlet>
+    </div>
+</div>
